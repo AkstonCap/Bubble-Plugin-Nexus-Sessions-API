@@ -1,0 +1,110 @@
+{
+    "auth": "none",
+    "calls": {
+        "AAG": {
+            "initialized": true,
+            "method": "get",
+            "name": "Create/Local",
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1710324235236x496237383882637300.plugin_api.AAG",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAG\":{\"caption\":\"Create/Local\",\"fields\":{\"_p_result.genesis\":{\"ret_value\":\"text\",\"caption\":\"genesis\",\"sample_value\":\"b7cbef6130a99ce1f48515e72e39cb22a5fb451b8d8aec8e7f9de7db5a852bdc\",\"path\":[\"result\",\"genesis\"]},\"_p_result.session\":{\"ret_value\":\"text\",\"caption\":\"session\",\"sample_value\":\"161db60de15a42df750fc38fd5c4d94221299892368d832000e26e0e36d5421d\",\"path\":[\"result\",\"session\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"sessions/create\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"18.237.239.29:59320\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"1991.240145 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]sessions/create/local?username=[username]&password=[password]&pin=[pin]",
+            "url_params": {
+                "AAa": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "AAj": {
+                    "key": "username",
+                    "private": true,
+                    "value": ""
+                },
+                "AAl": {
+                    "key": "password",
+                    "private": true,
+                    "value": ""
+                },
+                "AAn": {
+                    "key": "pin",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAS": {
+            "initialized": true,
+            "method": "get",
+            "name": "System/Get/Info",
+            "publish_as": "data",
+            "rank": 3,
+            "ret_value": "api.1710324235236x496237383882637300.plugin_api.AAS",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAS\":{\"caption\":\"Nexus System API\",\"fields\":{\"_p_result.version\":{\"ret_value\":\"text\",\"caption\":\"version\",\"sample_value\":\"5.1.1-rc1.5 Tritium++ CLI [LLD][x64]\",\"path\":[\"result\",\"version\"]},\"_p_result.protocolversion\":{\"ret_value\":\"number\",\"caption\":\"protocolversion\",\"sample_value\":3060000,\"path\":[\"result\",\"protocolversion\"]},\"_p_result.timestamp\":{\"ret_value\":\"number\",\"caption\":\"timestamp\",\"sample_value\":1691154644,\"path\":[\"result\",\"timestamp\"]},\"_p_result.hostname\":{\"ret_value\":\"text\",\"caption\":\"hostname\",\"sample_value\":\"node1.nexus.io\",\"path\":[\"result\",\"hostname\"]},\"_p_result.directory\":{\"ret_value\":\"text\",\"caption\":\"directory\",\"sample_value\":\"/home/private/.Nexus/testnet1/\",\"path\":[\"result\",\"directory\"]},\"_p_result.testnet\":{\"ret_value\":\"number\",\"caption\":\"testnet\",\"sample_value\":1,\"path\":[\"result\",\"testnet\"]},\"_p_result.private\":{\"ret_value\":\"boolean\",\"caption\":\"private\",\"sample_value\":true,\"path\":[\"result\",\"private\"]},\"_p_result.hybrid\":{\"ret_value\":\"boolean\",\"caption\":\"hybrid\",\"sample_value\":false,\"path\":[\"result\",\"hybrid\"]},\"_p_result.latency\":{\"ret_value\":\"number\",\"caption\":\"latency\",\"sample_value\":500,\"path\":[\"result\",\"latency\"]},\"_p_result.multiuser\":{\"ret_value\":\"boolean\",\"caption\":\"multiuser\",\"sample_value\":true,\"path\":[\"result\",\"multiuser\"]},\"_p_result.litemode\":{\"ret_value\":\"boolean\",\"caption\":\"litemode\",\"sample_value\":false,\"path\":[\"result\",\"litemode\"]},\"_p_result.nolegacy\":{\"ret_value\":\"boolean\",\"caption\":\"nolegacy\",\"sample_value\":true,\"path\":[\"result\",\"nolegacy\"]},\"_p_result.blocks\":{\"ret_value\":\"number\",\"caption\":\"blocks\",\"sample_value\":3571,\"path\":[\"result\",\"blocks\"]},\"_p_result.synchronized\":{\"ret_value\":\"boolean\",\"caption\":\"synchronized\",\"sample_value\":true,\"path\":[\"result\",\"synchronized\"]},\"_p_result.syncing\":{\"ret_value\":\"boolean\",\"caption\":\"syncing\",\"sample_value\":false,\"path\":[\"result\",\"syncing\"]},\"_p_result.txtotal\":{\"ret_value\":\"number\",\"caption\":\"txtotal\",\"sample_value\":0,\"path\":[\"result\",\"txtotal\"]},\"_p_result.connections\":{\"ret_value\":\"number\",\"caption\":\"connections\",\"sample_value\":0,\"path\":[\"result\",\"connections\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"system/get/info\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"18.237.239.29:34082\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"0.075140 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]system/get/info",
+            "url_params": {
+                "AAf": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                }
+            }
+        },
+        "AAU": {
+            "initialized": true,
+            "method": "get",
+            "name": "Terminate/Local",
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1710324235236x496237383882637300.plugin_api.AAU",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAU\":{\"caption\":\"Terminate/Local\",\"fields\":{\"_p_result.success\":{\"ret_value\":\"boolean\",\"caption\":\"success\",\"sample_value\":true,\"path\":[\"result\",\"success\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"sessions/terminate\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"35.86.95.12:51378\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"0.066405 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]sessions/terminate/local?session=[session]&pin=[pin]",
+            "url_params": {
+                "AAd": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "AAh": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAo": {
+                    "key": "pin",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAp": {
+            "method": "get",
+            "name": "Save/Local",
+            "publish_as": "action",
+            "rank": 2,
+            "should_reinitialize": true,
+            "url": "[web server:port]sessions/save/local?session=[session]&pin=[pin]",
+            "url_params": {
+                "AAq": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "AAr": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAs": {
+                    "key": "pin",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        }
+    },
+    "human": "Nexus - Sessions API"
+}

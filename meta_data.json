@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "analytics",
+        "2": "payment",
+        "3": "technical",
+        "4": "productivity"
+    },
+    "description": "This plugin connects to the nexus (nexus.io) API and creates a new session (log in) on the blockchain. The plugin is currently linked to a private chain node (private.nexus.io:7080/) which can be updated manually to connect to a mainnet node.",
+    "image": "//meta-q.cdn.bubble.io/f1710340690357x398498961701003970/nameless.jpg",
+    "license": "open_source",
+    "link": "https://github.com/Nexusoft/LLL-TAO/blob/merging/docs/API/COMMANDS/SESSIONS.MD",
+    "name": "Nexus Sessions API",
+    "plugin_instructions": "See docs in url for references."
+}
